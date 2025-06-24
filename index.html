@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>website Components</title>
+    <link href="./src/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body class="bg-slate-300" text-[120%] style="font-family: 'Playfair Display', serif">
+    <nav class="relative bg-indigo-600 shadow-2xl text-white">
+      <div class="max-w-[90%] flex justify-between mx-auto text-xl p-1">
+        <h1><a href="#" class="hover:text-teal-300 transition-transform duration-300">Your logo</a></h1>
+        <details class="relative flex md:hidden flex-col text-right">
+          <summary class="cursor-pointer list-none hover:text-teal-300">☰</summary>
+
+          <ul class="absolute right-0 z-50 flex flex-col gap-3.5 bg-indigo-600 rounded p-2 mt-2">
+            <li>
+              <a href="#Home" class="hover:text-teal-300 transition-transform duration-300">Home</a>
+            </li>
+            <li>
+              <a href="#pricing" class="hover:text-teal-300 transition-transform duration-300">Pricing</a>
+            </li>
+
+            <li>
+              <a href="#Contact" class="hover:text-teal-300 transition-transform duration-300">Contact</a>
+            </li>
+          </ul>
+        </details>
+        <ul class="hidden gap-3.5 md:flex">
+          <li>
+            <a href="#Home" class="hover:text-teal-300 transition-transform duration-300">Home</a>
+          </li>
+          <li>
+            <a href="#pricing" class="hover:text-teal-300 transition-transform duration-300">Pricing</a>
+          </li>
+
+          <li>
+            <a href="#Contact" class="hover:text-teal-300 transition-transform duration-300">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>
