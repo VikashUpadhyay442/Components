@@ -53,3 +53,6 @@ Make a proper landing page for a business containing:
 - Github - [Vikash Upadhyay](https://github.com/VikashUpadhyay442)
 
 ## Edits
+
+### First Edit
+Added hero section

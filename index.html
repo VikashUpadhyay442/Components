@@ -15,38 +15,58 @@
       rel="stylesheet" />
   </head>
   <body class="bg-slate-300" text-[120%] style="font-family: 'Playfair Display', serif">
+
+
+    <!-- navigation section -->
+
     <nav class="relative bg-indigo-600 shadow-2xl text-white">
       <div class="max-w-[90%] flex justify-between mx-auto text-xl p-1">
-        <h1><a href="#" class="hover:text-teal-300 transition-transform duration-300">Your logo</a></h1>
+        <h1><a href="#" class="hover:text-teal-300 transition-all duration-300">Your logo</a></h1>
         <details class="relative flex md:hidden flex-col text-right">
           <summary class="cursor-pointer list-none hover:text-teal-300">☰</summary>
 
           <ul class="absolute right-0 z-50 flex flex-col gap-3.5 bg-indigo-600 rounded p-2 mt-2">
             <li>
-              <a href="#Home" class="hover:text-teal-300 transition-transform duration-300">Home</a>
+              <a href="#Home" class="hover:text-teal-300 transition-all duration-300">Home</a>
             </li>
             <li>
-              <a href="#pricing" class="hover:text-teal-300 transition-transform duration-300">Pricing</a>
+              <a href="#pricing" class="hover:text-teal-300 transition-all duration-300">Pricing</a>
             </li>
 
             <li>
-              <a href="#Contact" class="hover:text-teal-300 transition-transform duration-300">Contact</a>
+              <a href="#Contact" class="hover:text-teal-300 transition-all duration-300">Contact</a>
             </li>
           </ul>
         </details>
         <ul class="hidden gap-3.5 md:flex">
           <li>
-            <a href="#Home" class="hover:text-teal-300 transition-transform duration-300">Home</a>
+            <a href="#Home" class="hover:text-teal-300 transition-all duration-300">Home</a>
           </li>
           <li>
-            <a href="#pricing" class="hover:text-teal-300 transition-transform duration-300">Pricing</a>
+            <a href="#pricing" class="hover:text-teal-300 transition-all duration-300">Pricing</a>
           </li>
 
           <li>
-            <a href="#Contact" class="hover:text-teal-300 transition-transform duration-300">Contact</a>
+            <a href="#Contact" class="hover:text-teal-300 transition-all duration-300">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
+
+    <!-- Hero section-->
+
+    <section id="Home" class="flex flex-col items-center max-w-[90%] mx-auto my-7">
+      <h1 class="text-slate-900 text-center text-5xl font-bold leading-tight md:text-6xl">
+        Your Grand Hero Headline
+      </h1>
+      <h3 class="text-2xl py-2 text-indigo-600">Describe your product, service, or offer in one clear sentence.</h3>
+
+      <div class="flex items-center mt-5 gap-5">
+        <button class="w-28 h-10 rounded-3xl font-[Lora] hover:scale-[110%] bg-indigo-600 text-white hover:bg-teal-300 hover:text-black transition-all duration-300">Get Started</button>
+        <a href="#" class="underline font-[Lora] hover:text-indigo-400 transition-all duration-200">Learn more</a>
+      </div>
+    </section>
+
+
   </body>
 </html>
