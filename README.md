@@ -56,3 +56,6 @@ Make a proper landing page for a business containing:
 
 ### First Edit
 Added hero section
+
+## Second Edit
+Added Price,Faq,Contact,testimonials and Features section
