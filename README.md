@@ -31,8 +31,8 @@ Make a proper landing page for a business containing:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/VikashUpadhyay442/Components)
-- Live Site URL: [Github pages](https://vikashupadhyay442.github.io/Components/)
+- Solution URL: [Github](https://github.com/VikashUpadhyay442/front-page)
+- Live Site URL: [Github pages](https://vikashupadhyay442.github.io/front-page/)
 
 ## My process
 
